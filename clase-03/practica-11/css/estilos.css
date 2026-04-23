@@ -2,6 +2,10 @@ body {
 	background-color: black;
 }
 
+h1, h2, a {
+	font-family: ;
+}
+
 h1 {
 	color: whitesmoke;
 }
@@ -12,6 +16,7 @@ h2 {
 
 p {
 	color: whitesmoke;
+	font-family: ;
 }
 
 a {
@@ -20,4 +25,11 @@ a {
 
 li {
 	color: antiquewhite;
+}
+
+/* Declaración de uso de IA:
+  Se utilizó IA como apoyo para redactar la estructura y el contenido de esta página */
+
+footer {
+	background-color: darkgrey;
 }
