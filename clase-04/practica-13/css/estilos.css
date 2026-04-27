@@ -1,0 +1,36 @@
+/* estilos para resetear todo el html */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* estilos específicos de los elementos html principales */
+body {
+	font-family: "Federo", sans-serif;
+ 	font-weight: 400;
+ 	font-style: normal;
+}
+
+header, footer {
+	background-color: rgba(150, 150, 50, 0.5);
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+a, footer {
+	font-family: Arial;
+}
+
+main {
+	background-color: rgba(150, 50, 150, 0.6);
+}
+
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+}
