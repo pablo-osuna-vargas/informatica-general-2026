@@ -1,97 +1,101 @@
-/* estilos para resetear todo el html */
+/* Declaración de uso de IA:
+Este sitio fue modificado utilizando IA para definir una nueva identidad visual
+de estilo minimalista, con tipografía Montserrat y paleta azul petróleo/verde agua.
+*/
+
+/* Reset básico */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-/* estilos específicos de los elementos html principales */
-#contenedor {
-	width: 100%;
-	max-width: 960px;
-}
-
+/* Tipografía global */
 body {
-	margin: 1rem;
-	padding: 1rem;
-	background-color: rgba(100, 100, 50, 0.3);
-	font-family: "Federo", sans-serif;
- 	font-weight: 400;
- 	font-style: normal;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333333;
+  background-color: #ffffff;
+  line-height: 1.6;
 }
 
+/* Contenedor principal */
+#contenedor {
+  width: 100%;
+  max-width: 960px;   /* limita el ancho */
+  margin: 0 auto;     /* centra horizontalmente */
+  padding: 1rem;      /* aire interno */
+  text-align: center; /* centra el contenido dentro */
+}
+
+/* Header y footer */
 header, footer {
-	margin: 1rem;
-	padding: 1rem;
-	background-color: rgba(150, 150, 50, 0.5);
-	text-align: center;
-	border: 2px black solid;
+  background-color: #f5f5f5;
+  padding: 1rem;
 }
 
-main, article {
-	margin: 1rem;
-	padding: 1rem;
-	color: whitesmoke;
-	background-color: rgba(150, 50, 150, 0.6);
-	border: 2px black solid;
+header h1, footer p {
+  color: #333333;
+  text-align: center;
 }
 
-h2 {
-	color: black;
-	text-align: center;
-}
-
-
-/* estilos para el nav y sus elementos */
-nav {
-	margin: 0.5rem;
-	padding: 0.5rem;
-	background-color: rgba(0, 150, 50, 0.3);
-	border:  2px black solid;
-
+/* Navegación agrupada con inline-block */
+nav ul {
+  list-style: none;        /* elimina bullets */
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-	margin: 0.5rem;
-	padding: 0.5rem;
-	list-style: none;
-	display: inline-block;
+  display: inline-block;   /* coloca los <li> en fila */
+  margin: 0 0.5rem;        /* espacio entre enlaces */
 }
 
-a, footer {
-	font-family: Arial;
+nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: #005f73;          /* color base */
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;      /* opcional: suaviza el fondo */
 }
 
-a:link {
-	padding: 0.2rem;
-	color: rgba(200, 200, 200, 1.0);
-	background-color: rgba(150, 50, 150, 0.6);
+/* Pseudoclases */
+nav a:link {
+  color: #005f73;
 }
 
-a:visited {
-	padding: 0.2rem;
-	color: rgba(50, 50, 50, 1.0);
-	background-color: rgba(150, 50, 150, 0.6);
+nav a:visited {
+  color: #333333;
+}
+
+nav a:hover {
+  color: #0a9396;
+  background-color: #f0f0f0; /* efecto hover minimalista */
+}
+
+nav a:active {
+  color: #ffffff;
+  background-color: #005f73;
+}
+
+/* Main */
+main {
+  margin: 2rem 0;   /* separa del header y footer */
+}
+
+/* Títulos */
+h2, h3 {
+  color: #005f73;
+  margin-bottom: 1rem;
+}
+
+/* Links generales */
+a {
+  color: #005f73;
 }
 
 a:hover {
-	padding: 0.2rem;
-	color: rgba(200, 200, 200, 1.0);
-	background-color: rgba(150, 50, 150, 0.6);
-}
-
-a:active {
-	padding: 0.2rem;	
-	color: rgba(200, 200, 200, 1.0);
-	background-color: rgba(150, 50, 150, 0.6);
-}
-
-
-/*estilos para el único ID en el footer, pero aun no logro resolverlo óptimamente */
-#adress {
-	margin: 0.5rem;
-	padding: 0.5rem;
-	background-color: rgba(0, 150, 50, 0.3);
-	border: 2px black solid;
+  color: #0a9396;
 }
