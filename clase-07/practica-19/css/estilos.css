@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+	margin: 0 auto;
+	padding: 0.5rem;
+	font-family: "Lato";
+	color: whitesmoke;
+	background: black;
+}
+
+p {
+	margin: 0;
+	padding: 0.5rem;
+	font-family: "Abel";
+	color: whitesmoke;
+	font-size: 1.5rem;
+	background: black;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0.5rem;
+	font-family: "sans-serif;";
+	color: whitesmoke;
+	font-size: 1.5rem;
+	background: black
+}
+
+ul li {
+	margin: 0;
+	padding: 0.5rem;
+}
+
+img {
+	width: 100%;
+}
