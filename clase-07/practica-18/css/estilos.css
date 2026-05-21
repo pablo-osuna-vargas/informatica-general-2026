@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+	font-family: "Lato";
+	color: yellow;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+p {
+	font-family: "Abel";
+	color: black;
+	background: rgba(200, 200, 0, 0.5);
+}
